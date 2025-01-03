@@ -100,3 +100,8 @@ executable('test_cc_sp', 'test_cc_sp.cpp',
   include_directories: includes,
   cpp_args: crypto_compile_args,
   dependencies: crypto_dependencies)
+
+executable('test_bloomfilter', 'test_bloomfilter.cpp',
+  include_directories: includes,
+  cpp_args: crypto_compile_args,
+  dependencies: crypto_dependencies)
